@@ -1,0 +1,782 @@
+@charset "utf-8";
+.margin{
+  margin:0 0.45rem;
+  box-sizing:border-box;
+  padding:0;
+}
+body{
+  width:10.8rem;
+  background: #ebf0f3;
+  padding:0 0 1.6rem 0;
+}
+.discovering{
+  width:10.8rem;
+  background: #fff;
+  padding:0 0.45rem;
+  height:1.74rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  h2{
+    font:0.48rem "微软雅黑";
+  }
+  img{
+    width: 0.44rem;
+    height:0.44rem;
+  }
+
+}
+.fixed{
+  position: fixed;
+  left:0;
+  top:0;
+}
+.discover_nav{
+
+  border-bottom: 0.01rem solid #d2d2d2;
+  z-index: 8;
+  width:10.8rem;
+  height:1.62rem;
+  background: #fff;
+  ul{
+    height:1.62rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    li{
+      border-bottom: 0.08rem solid #fff;
+      p{
+        font:0.42rem/1.5rem "微软雅黑";
+        padding:0 0.7rem;
+        color:#584f60;
+        border-bottom: 0.08rem solid #fff;
+      }
+
+    }
+    .active{
+      border-bottom: 0.08rem solid #584f60;
+    }
+  }
+  .search{
+    position: absolute;
+    top:0.62rem;
+    right:0.42rem;
+
+  }
+}
+
+/*
+  slide1
+
+*/
+
+
+.choiceness_banner{
+  width:10.8rem;
+  height:4.9rem;
+  margin:0 0 0.36rem 0;
+  .swiper-container{
+    .swiper-wrapper{
+      .swiper-slide{
+        img{
+          width:10.8rem;
+          height:4.9rem;
+        }
+      }
+    }
+  }
+}
+.strategy{
+  margin-bottom: 0.36rem;
+  background: #fff;
+  padding-bottom: 0.42rem;
+  .title{
+    height:1.64rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    h4{
+      font:0.36rem "微软雅黑";
+      color:#584f60;
+    }
+    img{
+      width:0.2rem;
+      height:0.36rem;
+    }
+  }
+  .strategy_bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    img{
+      width:4.92rem;
+      height:3.24rem;
+    }
+  }
+}
+.topic_discuss{
+  margin-bottom: 0.36rem;
+  background: #fff;
+  padding-bottom: 0.42rem;
+  .title{
+    height:1.64rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    h4{
+      font:0.36rem "微软雅黑";
+      color:#584f60;
+    }
+    img{
+      width:0.2rem;
+      height:0.36rem;
+
+    }
+  }
+  .topic{
+    img{
+      width:9.96rem;
+      height:3.57rem;
+      margin-bottom: 0.12rem;
+      &:nth-last-of-type(1){
+        margin-bottom: 0;
+      }
+    }
+  }
+}
+.hot_events{
+  margin-bottom: 0.36rem;
+  background: #fff;
+  padding-bottom: 0.42rem;
+  .title{
+    height:1.64rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    h4{
+      font:0.36rem "微软雅黑";
+      color:#584f60;
+    }
+    img{
+      width:0.2rem;
+      height:0.36rem;
+
+    }
+  }
+  .events{
+    img{
+      width:9.96rem;
+      height:3.57rem;
+    }
+  }
+}
+.recommend_groups{
+  margin-bottom: 0.36rem;
+  background: #fff;
+  padding-bottom: 0.42rem;
+  .title{
+    height:1.64rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    h4{
+      font:0.36rem "微软雅黑";
+      color:#584f60;
+    }
+    img{
+      width:0.2rem;
+      height:0.36rem;
+
+    }
+  }
+  .groups{
+    display: flex;
+    justify-content: space-between;
+    .group{
+      padding-bottom: 0.75rem;
+      border:0.01rem solid #999;
+      border-radius: 0.12rem;
+      text-align: center;
+      .head{
+        position: relative;
+        img{
+          width:1.44rem;
+          height:1.44rem;
+          position: absolute;
+          left:1.71rem;
+          top:-0.7rem;
+        }
+      }
+      img{
+        width:4.86rem;
+        height:2.3rem;
+      }
+      p{
+        margin:1.55rem 0 0.3rem 0;
+        font:700 0.42rem "微软雅黑";
+        color:#333;
+      }
+      span{
+        font:0.26rem "微软雅黑";
+        color:#999;
+      }
+    }
+
+  }
+}
+.recommend_intelligent{
+  margin-bottom: 0.36rem;
+  background: #fff;
+  .title{
+    height:1.64rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    h4{
+      font:0.36rem "微软雅黑";
+      color:#584f60;
+    }
+    img{
+      width:0.2rem;
+      height:0.36rem;
+
+    }
+  }
+  .intelligent{
+    padding:0 0.45rem;
+    height:2.32rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 0.01rem solid #ededed;
+    &:nth-last-of-type(1){
+      border:0;
+    }
+    img{
+      width:1.5rem;
+      height:1.5rem;
+    }
+    .cont{
+      letter-spacing: 0.02rem;
+      p{
+        font:0.44rem "微软雅黑";
+        color:#333;
+      }
+      span{
+        display: block;
+        width: 5.07rem;
+        font:0.32rem "微软雅黑";
+        color:#999;
+      }
+    }
+    .attention{
+      font:0.3rem "微软雅黑";
+      color:#24c68a;
+      padding:0.25rem 0.7rem;
+      border:0.02rem solid #24c68a;
+      border-radius: 0.45rem;
+    }
+  }
+}
+
+.recommend_article{
+  margin-bottom: 0.36rem;
+  background: #fff;
+  padding-bottom: 0.75rem;
+  .title{
+    height:1.64rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    h4{
+      font:0.36rem "微软雅黑";
+      color:#584f60;
+    }
+    img{
+      width:0.2rem;
+      height:0.36rem;
+
+    }
+  }
+  .article{
+    text-align: center;
+    img{
+      width:9.96rem;
+      height:4.47rem;
+    }
+    p{
+      font:0.44rem "微软雅黑";
+      margin:0.45rem 0 0.3rem 0;
+    }
+    span{
+      font:0.32rem "微软雅黑";
+      color:#999;
+    }
+  }
+}
+
+/*
+
+  slide2
+
+
+*/
+
+@mixin banner{
+  width:10.8rem;
+  height:4.9rem;
+  .swiper-container{
+    .swiper-wrapper{
+      .swiper-slide{
+        img{
+          width:10.8rem;
+          height:4.9rem;
+        }
+      }
+    }
+  }
+}
+@mixin nav{
+  margin-bottom: 0.36rem;
+  display: flex;
+  justify-content: space-between;
+  padding:0.58rem 1.2rem;
+  box-sizing: border-box;
+  background: #fff;
+  .lib{
+    text-align: center;
+    img{
+      width:0.9rem;
+      height:0.9rem;
+      margin-bottom:0.2rem;
+    }
+    p{
+      font:0.34rem "微软雅黑";
+      color:#666;
+    }
+  }
+}
+.train_banner{
+  @include banner;
+}
+.lib_nav{
+  @include nav;
+}
+@mixin title{
+  height:1.64rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  h4{
+    font:0.36rem "微软雅黑";
+    color:#584f60;
+  }
+  img{
+    width:0.2rem;
+    height:0.36rem;
+
+  }
+}
+@mixin swiper4{
+  width:10.8rem;
+  padding-bottom: 0.42rem;
+  .swiper-container{
+    .swiper-wrapper{
+      .swiper-slide{
+        img{
+          width:7.5rem;
+          height:3.75rem;
+        }
+      }
+    }
+  }
+}
+.the_new{
+  margin-bottom: 0.36rem;
+  background: #fff;
+  .title{
+    @include title;
+  }
+  .the_news{
+    @include swiper4;
+  }
+}
+.vacation{
+  margin-bottom: 0.36rem;
+  background: #fff;
+  .title{
+    @include title;
+  }
+  .vacations{
+    @include swiper4;
+  }
+}
+.lose_weight{
+  margin-bottom: 0.36rem;
+  background: #fff;
+  .title{
+    @include title;
+  }
+  .lose_weights{
+    @include swiper4;
+  }
+}
+.yoga{
+  margin-bottom: 0.36rem;
+  background: #fff;
+  .title{
+    @include title;
+  }
+  .yogas{
+    @include swiper4;
+  }
+}
+.outdoors_running{
+  margin-bottom: 0.36rem;
+  background: #fff;
+  .title{
+    @include title;
+  }
+  .outdoors_runnings{
+    @include swiper4;
+  }
+}
+.girls_hot{
+  margin-bottom: 0.36rem;
+  background: #fff;
+  .title{
+    @include title;
+  }
+  .girls_hots{
+    @include swiper4;
+  }
+}
+
+    /*
+
+      slide3
+
+
+    */
+.diet_banner{
+  @include banner;
+}
+.lib_nav{
+  @include nav;
+}
+@mixin swiper5{
+  width:10.8rem;
+  .swiper-container{
+    .swiper-wrapper{
+      .swiper-slide{
+        .single_goods{
+          padding-bottom: 0.7rem;
+          img{
+            width:3.75rem;
+            height:3.75rem;
+          }
+          p{
+            margin:0.42rem 0 0.22rem 0;
+            font:0.34rem "微软雅黑";
+            color:#333;
+          }
+          span{
+            font:0.22rem "微软雅黑";
+            color:#ccc;
+          }
+        }
+
+      }
+    }
+  }
+}
+@mixin description{
+  border-top:0.01rem solid #efefef;
+  padding:0.5rem 0;
+  font:0.34rem "微软雅黑";
+  color:#999;
+}
+.cold_drink{
+  margin-bottom: 0.36rem;
+  background: #fff;
+  .title{
+    @include title;
+  }
+  .cold_drinks{
+    @include swiper5;
+  }
+  .description{
+    @include description;
+  }
+}
+.eating_animal{
+  margin-bottom: 0.36rem;
+  background: #fff;
+  .title{
+    @include title;
+  }
+  .eating_animals{
+    @include swiper5;
+  }
+  .description{
+    @include description;
+  }
+}
+.staple_food{
+  margin-bottom: 0.36rem;
+  background: #fff;
+  .title{
+    @include title;
+  }
+  .staple_foods{
+    @include swiper5;
+  }
+  .description{
+    @include description;
+  }
+
+}
+
+.high_protein{
+  margin-bottom: 0.36rem;
+  background: #fff;
+  .title{
+    @include title;
+  }
+  .high_proteins{
+    @include swiper5;
+  }
+  .description{
+    @include description;
+  }
+
+}
+.lunch{
+  margin-bottom: 0.36rem;
+  background: #fff;
+  .title{
+    @include title;
+  }
+  .lunchs{
+    @include swiper5;
+  }
+  .description{
+    @include description;
+  }
+
+}
+.summer_drink{
+  margin-bottom: 0.36rem;
+  background: #fff;
+  .title{
+    @include title;
+  }
+  .summer_drinks{
+    @include swiper5;
+  }
+  .description{
+    @include description;
+  }
+
+}
+
+    /*
+
+      slide4
+
+    */
+.shop_banner{
+  @include banner;
+}
+.lib_nav{
+  @include nav;
+  margin-bottom: 0;
+  border-bottom: 0.01rem solid #ededed;
+
+}
+.notice{
+  margin-bottom: 0.36rem;
+  padding:0 0.45rem;
+  background: #fff;
+  display: flex;
+  justify-content: space-between;
+  height:1.35rem;
+  align-items: center;
+  img{
+    width:2.1rem;
+    height:0.32rem;
+  }
+  .notice_cont{
+    margin-left:0.3rem;
+    width:8rem;
+    height:1.35rem;
+    .swiper-container{
+      height:1.35rem;
+      .swiper-wrapper{
+        .swiper-slide{
+          height:1.35rem;
+          p{
+            font:0.34rem/1.35rem "微软雅黑";
+            color:#666;
+          }
+        }
+      }
+    }
+  }
+}
+@mixin swiper6{
+  width:10.8rem;
+  .swiper-container{
+    .swiper-wrapper{
+      .swiper-slide{
+        .single_goods{
+          padding-bottom: 0.7rem;
+          .clothes_box{
+            background: #f7f7f7;
+            width: 3.75rem;
+            height: 3.75rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          }
+          p{
+            margin:0.42rem 0 0.22rem 0;
+            font:0.34rem "微软雅黑";
+            color:#333;
+          }
+          span{
+            font:700 0.32rem "微软雅黑";
+            color:#24c68a;
+          }
+        }
+
+      }
+    }
+  }
+}
+.athletic_undergarment{
+  margin-bottom: 0.36rem;
+  background: #fff;
+  .title{
+    @include title;
+  }
+  .athletic_undergarments{
+    @include swiper6;
+    img{
+      width: 2.47rem;
+      height:2.52rem;
+    }
+  }
+  .description{
+    @include description;
+  }
+
+}
+.Leisure_T_shirt{
+  margin-bottom: 0.36rem;
+  background: #fff;
+  .title{
+    @include title;
+  }
+  .Leisure_T_shirts{
+    @include swiper6;
+    img{
+      width: 2.87rem;
+      height:3rem;
+    }
+  }
+  .description{
+    @include description;
+  }
+
+}
+.sports_T_shirt{
+  margin-bottom: 0.36rem;
+  background: #fff;
+  .title{
+    @include title;
+  }
+  .sports_T_shirts{
+    @include swiper6;
+    img{
+      width: 3rem;
+      height:3.1rem;
+    }
+  }
+  .description{
+    @include description;
+  }
+
+}
+.couple_t_shirt{
+  margin-bottom: 0.36rem;
+  background: #fff;
+  .title{
+    @include title;
+  }
+  .couple_t_shirts{
+    @include swiper6;
+    img{
+      width: 2.67rem;
+      height:3rem;
+    }
+  }
+  .description{
+    @include description;
+  }
+
+}
+
+
+
+
+.nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding:0.36rem 1rem 0;
+  background: #fff;
+  position: fixed;
+  left:0;
+  bottom:0;
+  z-index: 99;
+  width:10.8rem;
+  border-top: 0.01rem solid #d2d2d2;
+  box-sizing: border-box;
+  p{
+    margin-top:0.25rem;
+    font:0.3rem "微软雅黑";
+    color:#999;
+  }
+  .box{
+    height:1.2rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .training{
+    img{
+      width:0.42rem;
+      height:0.57rem;
+    }
+  }
+  .discover{
+    img{
+      width:0.48rem;
+      height:0.48rem;
+    }
+  }
+  .trends{
+    img{
+      width:0.49rem;
+      height:0.4rem;
+    }
+  }
+  .mine{
+    img{
+      width:0.5rem;
+      height:0.5rem;
+    }
+  }
+}
